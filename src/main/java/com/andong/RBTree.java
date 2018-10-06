@@ -370,7 +370,6 @@ public class RBTree<T extends Comparable<T>> {
         final boolean mDebugInsert = false;    // "插入"动作的检测开关(false，关闭；true，打开)
         final boolean mDebugDelete = false;    // "删除"动作的检测开关(false，关闭；true，打开)
 
-
         int i, ilen = a.length;
         RBTree<Integer> tree=new RBTree<Integer>();
 
